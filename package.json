@@ -1,0 +1,22 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "homepage": "https://happyudong555.github.io/gh-pages",
+  "license": "MIT",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^6.1.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "reactstrap": "^6.2.0"
+  }
+}
