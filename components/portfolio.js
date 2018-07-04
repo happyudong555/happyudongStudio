@@ -106,6 +106,7 @@ export default class Example extends React.Component {
                 margin: auto;
                 margin-bottom: 30px;
                 border-bottom: 0;
+                cursor: pointer !important;
             }
             a {
                 text-transform: capitalize;
